@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestClasses.MessageTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.082 s <<< FAILURE! - in TestClasses.MessageTest
+testMessageActionDiscard  Time elapsed: 0.036 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Press 0 to delete the message.> but was: <Message disregarded>
+	at TestClasses.MessageTest.testMessageActionDiscard(MessageTest.java:74)
+
+testMessageActionStore  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Message successfully stored.> but was: <Message is successfully stored>
+	at TestClasses.MessageTest.testMessageActionStore(MessageTest.java:81)
+
