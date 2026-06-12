@@ -3,8 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 package TestClasses;
-
-import com.mycompany.nkala.ntokozo.prog.part2.Login;
+import com.mycompany.quickchat.app.prog.poe;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
